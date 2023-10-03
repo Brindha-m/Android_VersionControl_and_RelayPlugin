@@ -1,0 +1,209 @@
+{
+  "name": "samplecard",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "gRXtT39OSfJEEtAkHnCTK1",
+    "node": "5:6",
+    "version": "4262038390",
+    "component-id": "6d4da1e59dcdff076af13ffdc66f33192b702347"
+  },
+  "default": "Samplecard",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "text-group"
+      },
+      {
+        "type": "image",
+        "id": "thumbnail"
+      },
+      {
+        "type": "text",
+        "id": "description"
+      },
+      {
+        "type": "text",
+        "id": "title"
+      }
+    ],
+    "modes": {
+      "Samplecard": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "18.0",
+            "is-structured": "false",
+            "children": [
+              "text-group",
+              "thumbnail"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.06274509803921569"
+            }
+          },
+          {
+            "id": "text-group",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "175.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "59.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "216.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "107.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "description",
+              "title"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "thumbnail",
+            "border-radius": "12.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "8.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "119.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "103.0"
+              }
+            },
+            "image-content": "$thumbnail",
+            "scale": "cover"
+          },
+          {
+            "id": "description",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "60.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "216.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "47.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$description",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "3.4285714721679685",
+            "typeface": "Noto Serif"
+          },
+          {
+            "id": "title",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "216.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "47.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$title",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "3.4285714721679685",
+            "typeface": "Noto Serif"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "thumbnail": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "description": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "title": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Samplecard",
+      "size": {
+        "width": 422.0,
+        "height": 212.0
+      },
+      "parameters": {
+        "thumbnail": "thumbnail.png",
+        "description": "Description",
+        "title": "Hello Every One!"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

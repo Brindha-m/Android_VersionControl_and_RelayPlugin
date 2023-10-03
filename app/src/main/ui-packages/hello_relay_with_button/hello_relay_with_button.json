@@ -1,0 +1,288 @@
+{
+  "name": "hello_relay_with_button",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "gRXtT39OSfJEEtAkHnCTK1",
+    "node": "1:18",
+    "version": "4262038390",
+    "component-id": "abfe726c05405af217bce7bd46802601ffcd09eb"
+  },
+  "default": "Hello Relay with button",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "Background pattern"
+      },
+      {
+        "type": "group",
+        "id": "Content"
+      },
+      {
+        "type": "image",
+        "id": "Image blob"
+      },
+      {
+        "type": "group",
+        "id": "Frame"
+      },
+      {
+        "type": "text",
+        "id": "Hello, Relay!"
+      },
+      {
+        "type": "group",
+        "id": "Button"
+      },
+      {
+        "type": "group",
+        "id": "Icon"
+      },
+      {
+        "type": "text",
+        "id": "label-text"
+      },
+      {
+        "type": "vector",
+        "id": "Icon vector"
+      }
+    ],
+    "modes": {
+      "Hello Relay with button": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "24.0",
+            "is-structured": "false",
+            "children": [
+              "Background pattern",
+              "Content"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "345.2830188679245",
+              "saturation": "0.6680672268907563",
+              "value": "0.9333333333333333"
+            }
+          },
+          {
+            "id": "Background pattern",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "background_pattern.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Content",
+            "margin": {
+              "left": "40.0",
+              "right": "40.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.18195343017578125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "Image blob",
+              "Frame"
+            ],
+            "item-spacing": "24.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Image blob",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "160.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "144.5"
+              }
+            },
+            "image-content": "image_blob.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Frame",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "Hello, Relay!",
+              "Button"
+            ],
+            "item-spacing": "20.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Hello, Relay!",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "233.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$greeting",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "36.0",
+            "line-height": "1.3333332824707032",
+            "typeface": "Noto Serif"
+          },
+          {
+            "id": "Button",
+            "padding": {
+              "left": "20.0",
+              "top": "10.0",
+              "right": "20.0",
+              "bottom": "10.0"
+            },
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "arrangement": "row",
+            "children": [
+              "Icon",
+              "label-text"
+            ],
+            "item-spacing": "4.0"
+          },
+          {
+            "id": "Icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Icon vector"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "label-text",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Bookmark it",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "line-height": "1.4285714721679688",
+            "typeface": "Noto Sans"
+          },
+          {
+            "id": "Icon vector",
+            "margin": {
+              "left": "2.0",
+              "right": "2.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "icon_vector.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "greeting": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Hello Relay with button",
+      "size": {
+        "width": 320.0,
+        "height": 360.0
+      },
+      "parameters": {
+        "greeting": "Hello, Relay!"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
