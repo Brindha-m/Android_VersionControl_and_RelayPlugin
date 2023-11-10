@@ -53,7 +53,7 @@
 > Preview of the sample card
 <img width="700" alt="image" src="https://github.com/Brindha-m/ScalableDependencies_and_RelayPlugin/assets/72887609/f26c9905-7e30-4f55-8078-e5b180bc3b4d">
    
-> Can use that card as our composables.
+> Now you can use that card as our composables.
 <img src = "https://github.com/Brindha-m/ScalableDependencies_and_RelayPlugin/assets/72887609/6ed3078d-40a4-4b4b-af58-d71a3b3e63eb" width = "700">
 <img src= "https://github.com/Brindha-m/ScalableDependencies_and_RelayPlugin/assets/72887609/c896d8ba-ee9b-46bf-8dc4-a5883a543b35" width = "200">
 
