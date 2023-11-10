@@ -40,13 +40,13 @@
 - You can create UI design in Figma and export to android as a jetpack composables using the ` Relay Plugin `.
 - Install the relay plugin in both figma and andorid studio.
 - Import the neccessary dependencies in andorid studio.
-- - Rebuild the project and ui-project (res) package will be automatically created.
+- Rebuild the project and ui-project (res) package will be automatically created.
 - Some common controls
- - Create a Frame
- - `shift + A` -- Autolayout
- - Then select `Hug<->Hug`
- - Make another frame and make it a component anf set it `hug to hug`
- - Then add variants.. can also include images, buttons, text contents make sure it is auto aligned.
+  - Create a Frame
+  - `shift + A` -- Autolayout
+  - Then select `Hug<->Hug`
+  - Make another frame and make it a component anf set it `hug to hug`
+  - Then add variants.. can also include images, buttons, text contents make sure it is auto aligned.
 
 <br>
 
